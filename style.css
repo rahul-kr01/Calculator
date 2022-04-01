@@ -1,10 +1,15 @@
 .calc{
     width: 400px;
     height: 450px;
-    background-image: linear-gradient(to bottom right, rgb(86, 199, 228), rgb(232, 189, 238));
+    background-color: #ecf0f3;
     margin-left: 400px;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 5px 12px #ffffff,
+                        5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+                
 }
-.screen{
+#screen{
     width: 80%;
     height: 45px;
     margin-left: 35px;
@@ -14,18 +19,58 @@
 .btn{
     height: 70px;
     width: 70px;
-    background-image: linear-gradient(rgb(67, 113, 211), rgb(212, 226, 238));
+    font-size: 25px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: inset -5px -5px 12px #ffffff;
+    inset: 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+
 }
 .button{
-    padding: 50px;
-    padding-top: 8px;
+    padding: 52px;
+    padding-top: 8px
 }
 .btn:hover {
-    background-color: #d4423d;
+    background-color: #141414;
     color: white;
 }
 .clear{
     height: 40px;
     width: 144px;
-    background-image: linear-gradient(rgb(67, 113, 211), rgb(212, 226, 238));
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: inset -5px -5px 12px #ffffff;
+    inset: 5px 5px 12px rgba(0,0,0,.16);
+    margin: auto;
+    border: none;
+}
+.delete{
+    height: 40px;
+    width: 144px;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: inset -5px -5px 12px #ffffff;
+    inset: 5px 5px 12px rgba(0,0,0,.16);
+    margin: auto;
+    border: none;
+}
+input{
+    font-size: 25px;
+    grid-column: span 4;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff;
+                inset: 5px 5px 12px rgba(0,0,0,.16);
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    text-align: end;
+    padding: 10px;
+}
+.clear:hover{
+    background-color: #141414;
+    color: white;
+}
+.delete:hover{
+    background-color: #141414;
+    color: white;
 }
