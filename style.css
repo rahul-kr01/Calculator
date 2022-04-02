@@ -23,17 +23,12 @@
     border-radius: 15px;
     margin: auto;
     box-shadow: inset -5px -5px 12px #ffffff;
-    inset: 5px 5px 12px rgba(0,0,0,.16);
     border: none;
 
 }
 .button{
     padding: 52px;
-    padding-top: 8px
-}
-.btn:hover {
-    background-color: #141414;
-    color: white;
+    padding-top: 8px;
 }
 .clear{
     height: 40px;
@@ -41,7 +36,6 @@
     font-size: 25px;
     border-radius: 15px;
     box-shadow: inset -5px -5px 12px #ffffff;
-    inset: 5px 5px 12px rgba(0,0,0,.16);
     margin: auto;
     border: none;
 }
@@ -51,7 +45,6 @@
     font-size: 25px;
     border-radius: 15px;
     box-shadow: inset -5px -5px 12px #ffffff;
-    inset: 5px 5px 12px rgba(0,0,0,.16);
     margin: auto;
     border: none;
 }
@@ -66,6 +59,7 @@ input{
     text-align: end;
     padding: 10px;
 }
+/* hover effects */
 .clear:hover{
     background-color: #141414;
     color: white;
@@ -74,3 +68,8 @@ input{
     background-color: #141414;
     color: white;
 }
+.btn:hover {
+    background-color: #141414;
+    color: white;
+}
+/* Function keys */
